@@ -10,5 +10,5 @@ This repo houses data that this notebook uses (via `wget`).
 
 Recursive Ekphrasis Gym makes use of relations mined from Project Gutenberg:
 
-- `mining_gutenberg_for_relations.ipynb` documents how I extracted `(possessor,possessed)` tuples with SpaCy
-- `processing_pairs.ipynb` documents some further processing of these tuples, including tf-idf scoring
+- [`mining_gutenberg_for_relations.ipynb`](https://github.com/kbooten/ekphrasisgym/blob/main/mining_gutenberg_for_relations.ipynb) documents how I extracted `(possessor,possessed)` tuples with SpaCy
+- [`processing_pairs.ipynb`](https://github.com/kbooten/ekphrasisgym/blob/main/processing_pairs.ipynb) documents some further processing of these tuples, including [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) scoring
